@@ -15,6 +15,7 @@ plt.title("Daily Minimum Temperatures Over Time")
 plt.legend()
 plt.grid()
 plt.xticks(rotation=45)
+%matplotlib inline
 plt.show()
 
 data.to_csv("daily_min_temperatures.csv", index=False)
